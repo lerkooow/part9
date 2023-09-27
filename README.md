@@ -1,3 +1,6 @@
-# part9
+# TypeScript  
 
-first commit 
+## First steps with TypeScript  
+
+9.1 Body mass index  
+
