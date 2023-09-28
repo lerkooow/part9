@@ -1,4 +1,4 @@
-const CalculExercisions = (array: number[], target: number) => {
+const CalculExercisions = (target: number, array: number[]) => {
 
     const periodLength = array.length;
     const trainingDays = array.filter(a => a > 0).length;
@@ -20,4 +20,7 @@ const CalculExercisions = (array: number[], target: number) => {
     )
   }
 
-console.log(CalculExercisions([3, 0, 2, 4.5, 0, 3, 1], 2))
+const target: number = Number(process.argv[2])
+const array = process.argv.slice(3).map(Number);
+
+console.log(CalculExercisions(target, array))
