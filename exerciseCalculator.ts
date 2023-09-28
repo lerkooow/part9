@@ -1,4 +1,4 @@
-const CalculExercisions = (target: number, array: number[]) => {
+export function CalculExercisions(target: number, array: number[]){
 
     const periodLength = array.length;
     const trainingDays = array.filter(a => a > 0).length;
@@ -19,8 +19,3 @@ const CalculExercisions = (target: number, array: number[]) => {
         }
     )
   }
-
-const target: number = Number(process.argv[2])
-const array = process.argv.slice(3).map(Number);
-
-console.log(CalculExercisions(target, array))

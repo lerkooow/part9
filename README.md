@@ -8,6 +8,8 @@
 9.4 Express  
 9.5 WebBMI  
 9.6 Eslint  
+9.7 WebExercises  
+
 
 
 
